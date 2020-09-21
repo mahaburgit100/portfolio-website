@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- meta tag -->
+    <meta charset="UTF-8">
+    <meta name="author" content="Mahabur Rahman">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="portfolio, website for portfolio">
+    <meta name="portfolio website using bs4, js, jq, css3, html5" content="Free Web tutorials">
+    <meta http-equiv="refresh" content="30">
+
+    <!-- title for website -->
+    <title> Portfolio Website </title>
+    <!-- favicon  -->
+    <link rel="icon" href="img/favicon.gif">
+    <!-- google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+    <!-- font awesome icon -->
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <!--ios animation plugin -->
+    <link rel="stylesheet" href="css/aos.css">
+    <!-- fancy box | popUp gallery plugin -->
+    <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    <!-- owl carousel -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
+    <!-- bootstrap file -->
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <!-- ===== start navigation part ==== -->
+
+    <header id="header">
+        <div class="main-menu">
+            <nav class="navbar navbar-expand-md navbar-light fixed-top">
+                <div class="container">
+                    <a class="navbar-brand" href="#banner">
+                        <img src="img/logo.png" alt="logo of menu" class="w-25 h-25">
+                    </a>
+                    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="nav-link" href="#banner">home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#about">about</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#services">services</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#portfolio">portfolio</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#footer">pages</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#pages">blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#contact">contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== end of navigation part ==== -->
+
+    <!-- ===== start header part ==== -->
+    <section id="banner" class="text-dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 mt-5 py-3">
+                    <div class="middle-point" data-aos="flip-up">
+                        <h3 class="text-capitalize">hello</h3>
+                        <h1 class="text-uppercase">i am mahabur </h1>
+                        <h6 class="text-uppercase">senior front end developer</h6>
+                        <button type="button" class="btn button-primary mr-1 mt-2 text-uppercase">Hire Me</button>
+                        <button type="button" class="btn button-secondary text-uppercase mt-2">Get Cv</button>
+                    </div>
+                </div>
+                <div class="col-md-4 align-self-center mt-5">
+                    <img src="img/banner-image.png" alt="banner" class="img-fluid rounded-circle">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- ===== end of header part ==== -->
+
+    <!-- start  about us area -->
+    <section id="about" class="py-5">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6 align-self-center justify-content-center d-flex">
+                    <div class="about-img d-none d-md-block">
+                        <img src="img/hacker.webp" alt="about us" class="img-fluid">
+                    </div>
+                </div>
+
+                <div class="col-md-6 my-5 my-md-0">
+                    <div class="about-title ml-5 pl-5 ml-md-0 pl-md-0">
+                        <h2 class="text-uppercase" data-aos="fade-up">
+                            <span>let me</span>
+                            <span>introduce</span>
+                            <span>myself</span>
+                        </h2>
+                        <div class="paragraph w-75">
+                            <div class="para">
+                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet, ipsam.</p>
+                            </div>
+                            <div class="para">
+                                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium voluptatem et veniam deleniti maxime dolor mollitia cum, laborum explicabo temporibus!</p>
+                            </div>
+                        </div>
+                        <a href="#" class="btn btn-outline-dark text-capitalize">download cv</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of about us area -->
+
+    <!-- start brand area // experience  -->
+    <section id="branArea" class="py-5 mx-5 mx-sm-0">
+        <div class="container">
+            <div class="row">
+
+                <div class="col-md-6 col-sm-12">
+                    <div class="row my-3">
+                        <div class="col-4 shadow text-center hover-effect">
+                            <img src="img/brands/logo1.png" alt="logo one" class="img-fluid">
+                        </div>
+                        <div class="col-4 shadow text-center hover-effect">
+                            <img src="img/brands/logo2.png" alt="logo two" class="img-fluid">
+                        </div>
+                        <div class="col-4 shadow text-center hover-effect">
+                            <img src="img/brands/logo3.png" alt="logo three" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="row my-3">
+                        <div class="col-4 shadow text-center hover-effect">
+                            <img src="img/brands/logo4.png" alt="logo four" class="img-fluid">
+                        </div>
+                        <div class="col-4 shadow text-center hover-effect">
+                            <img src="img/brands/logo5.png" alt="logo five" class="img-fluid">
+                        </div>
+                        <div class="col-4 shadow text-center hover-effect">
+                            <img src="img/brands/logo6.png" alt="logo six" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="row my-3">
+                        <div class="col-4 shadow text-center hover-effect">
+                            <img src="img/brands/logo7.png" alt="logo seven" class="img-fluid">
+                        </div>
+                        <div class="col-4 shadow text-center hover-effect">
+                            <img src="img/brands/logo8.png" alt="logo eight" class="img-fluid">
+                        </div>
+                        <div class="col-4 shadow text-center hover-effect">
+                            <img src="img/brands/logo9.png" alt="logo nine" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-6 col-sm-12 my-3 my-md-0">
+                    <div class="card align-items-center shadow">
+                        <div class="card-body">
+                            <div class="d-flex flex-row">
+                                <h2 class="first-heading mr-2">03</h2>
+                                <h2 class="second-heading">
+                                    <span>years</span>
+                                    <span>experience</span>
+                                    <span>working</span>
+                                </h2>
+                            </div>
+                            <div class="d-flex flex-row mt-5">
+                                <span><i class="fa fa-phone fa-2x mr-4"></i></span>
+                                <div class="phone-number">
+                                    <a href="# " class="text-uppercase">call now<span class="spinner-grow spinner-grow-sm text-warning ml-2"></span></a>
+                                    <h6>+880 1626924395</h6>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        </div>
+    </section>
+    <!-- end of brand area // experience -->
+
+    <!-- start services section -->
+    <section id="services" class="py-5 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <h2 class="text-uppercase font-weight-bold">services offers</h2>
+                    <p class="mb-5 mt-3 pb-3">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ut, provident?
+                    </p>
+                </div>
+            </div>
+            <!-- cards -->
+            <div class="row">
+                <div class="col-sm-12 col-md-6 col-lg-3 my-2 my-lg-0 p-0">
+                    <div class="card" data-aos="slide-left">
+                        <div class="card-body">
+                            <div class="service-img my-4">
+                                <img src="img/services/s1.png" alt="wp developer" class="img-fluid">
+                            </div>
+                            <div class="wp-dev">
+                                <h6 class="text-uppercase font-weight-bold card-title">wp developer</h6>
+                                <p class="mt-3 card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nobis enim nostrum accusantium repellendus eum error quaerat veniam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 my-2 my-lg-0 p-0">
+                    <div class="card pb-1" data-aos="slide-left">
+                        <div class="card-body">
+                            <div class="service-img my-4">
+                                <img src="img/services/s2.png" alt="ui/ux design" class="img-fluid">
+                            </div>
+                            <div class="wp-dev">
+                                <h6 class="text-uppercase font-weight-bold card-title">ux/ui design</h6>
+                                <p class="mt-3 card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nobis enim nostrum accusantium repellendus eum error quaerat veniam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 my-2 my-lg-0 p-0">
+                    <div class="card" data-aos="slide-left">
+                        <div class="card-body">
+                            <div class="service-img my-4">
+                                <img src="img/services/s3.png" alt="web design" class="img-fluid">
+                            </div>
+                            <div class="wp-dev">
+                                <h6 class="text-uppercase font-weight-bold card-title">web design</h6>
+                                <p class="mt-3 card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nobis enim nostrum accusantium repellendus eum error quaerat veniam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-md-6 col-lg-3 my-2 my-lg-0 p-0">
+                    <div class="card" data-aos="slide-left">
+                        <div class="card-body">
+                            <div class="service-img my-4">
+                                <img src="img/services/s4.png" alt="seo optimize" class="img-fluid">
+                            </div>
+                            <div class="wp-dev">
+                                <h6 class="text-uppercase font-weight-bold card-title">seo optimize</h6>
+                                <p class="mt-3 card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex nobis enim nostrum accusantium repellendus eum error quaerat veniam.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </section>
+    <!-- end of services section -->
+
+    <!-- start project area -->
+    <section id="portfolio" class="py-5 text-center">
+        <div class="container">
+            <div class="project-title pb-5">
+                <h4 class="text-uppercase font-weight-bold"><span class="text">r</span>ecently done project</h4>
+                <h4 class="text-uppercase font-weight-bold">quality work</h4>
+            </div>
+
+            <div class="button-group mb-4">
+                <button type="button" class="mixitup-control-active p-2" data-filter="all">all</button>
+                <button type="button" data-filter=".popular" class="p-2">popular</button>
+                <button type="button" data-filter=".latest" class="p-2">latest</button>
+                <button type="button" data-filter=".following" class="p-2">following</button>
+                <button type="button" data-filter=".upcoming" class="p-2">upcoming</button>
+            </div>
+            <!-- gallery -->
+            <div class="row gallery text-center">
+
+                <div class="mix col-lg-4 col-md-6 col-sm-12 latest p-2">
+                    <div class="project-img">
+                        <a href="img/portfolio/p1.jpg" data-fancybox="anything">
+                            <img src="img/portfolio/p1.jpg" alt="portfolio 1" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="img-heading py-2">
+                        <h6 class="text-uppercase mb-0 font-weight-bold">minimul design</h6>
+                        <span class="text-muted">latest portfolio</span>
+                    </div>
+                </div>
+
+                <div class="mix col-lg-4 col-md-6 col-sm-12 popular p-2">
+                    <div class="project-img">
+                        <a href="img/portfolio/p2.jpg" data-fancybox="anything">
+                            <img src="img/portfolio/p2.jpg" alt="portfolio 2" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="img-heading py-2">
+                        <h6 class="text-uppercase mb-0 font-weight-bold">paint wall</h6>
+                        <span class="text-muted">popular portfolio</span>
+                    </div>
+                </div>
+
+                <div class="mix col-lg-4 col-md-6 col-sm-12 popular p-2">
+                    <div class="project-img">
+                        <a href="img/portfolio/p3.jpg" data-fancybox="anything">
+                            <img src="img/portfolio/p3.jpg" alt="portfolio 3" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="img-heading py-2">
+                        <h6 class="text-uppercase mb-0 font-weight-bold">female light</h6>
+                        <span class="text-muted">popular portfolio</span>
+                    </div>
+                </div>
+
+                <div class="mix col-lg-4 col-md-6 col-sm-12 following p-2">
+                    <div class="project-img">
+                        <a href="img/portfolio/p4.jpg" data-fancybox="anything">
+                            <img src="img/portfolio/p4.jpg" alt="portfolio 4" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="img-heading py-2">
+                        <h6 class="text-uppercase mb-0 font-weight-bold">fourth air</h6>
+                        <span class="text-muted">following portfolio</span>
+                    </div>
+                </div>
+
+                <div class="mix col-lg-4 col-md-6 col-sm-12 upcoming p-2">
+                    <div class="project-img">
+                        <a href="img/portfolio/p6.jpg" data-fancybox="anything">
+                            <img src="img/portfolio/p6.jpg" alt="portfolio 5" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="img-heading py-2">
+                        <h6 class="text-uppercase mb-0 font-weight-bold">together sign</h6>
+                        <span class="text-muted">upcoming portfolio</span>
+                    </div>
+                </div>
+
+                <div class="mix col-lg-4 col-md-6 col-sm-12 following p-2">
+                    <div class="project-img">
+                        <a href="img/portfolio/p5.jpg" data-fancybox="anything">
+                            <img src="img/portfolio/p5.jpg" alt="portfolio 6" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="img-heading py-2">
+                        <h6 class="text-uppercase mb-0 font-weight-bold">muliple fown</h6>
+                        <span class="text-muted">following portfolio</span>
+                    </div>
+                </div>
+
+                <div class="mix col-lg-4 col-md-6 col-sm-12 following p-2">
+                    <div class="project-img">
+                        <a href="img/portfolio/p8.jpg" data-fancybox="anything">
+                            <img src="img/portfolio/p8.jpg" alt="portfolio 7" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="img-heading py-2">
+                        <h6 class="text-uppercase mb-0 font-weight-bold">green heaven</h6>
+                        <span class="text-muted">following portfolio</span>
+                    </div>
+                </div>
+
+                <div class="mix col-lg-4 col-md-6 col-sm-12 upcoming p-2">
+                    <div class="project-img">
+                        <a href="img/portfolio/p7.jpg" data-fancybox="anything">
+                            <img src="img/portfolio/p7.jpg" alt="portfolio 8" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="img-heading py-2">
+                        <h6 class="text-uppercase mb-0 font-weight-bold">fly male</h6>
+                        <span class="text-muted">upcoming portfolio</span>
+                    </div>
+                </div>
+
+                <div class="mix col-lg-4 col-md-6 col-sm-12 upcoming p-2">
+                    <div class="project-img">
+                        <a href="img/portfolio/p9.jpg" data-fancybox="anything">
+                            <img src="img/portfolio/p9.jpg" alt="portfolio 9" class="img-fluid">
+                        </a>
+                    </div>
+                    <div class="img-heading py-2">
+                        <h6 class="text-uppercase mb-0 font-weight-bold">camera lens</h6>
+                        <span class="text-muted">upcoming portfolio</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of project area -->
+
+
+    <!-- start client section -->
+    <section id="pages" class="py-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12">
+                    <div class="about-title">
+                        <h3 class="text-uppercase font-weight-bold">client say about me</h3>
+                        <div class="about-para">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vero ratione explicabo officia a facilis maiores. Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- owl carousel -->
+        <div class="container carousel py-5">
+            <div class="owl-carousel owl-theme">
+                <div class="row client d-lg-flex align-items-lg-center">
+                    <div class="col-lg-4 col-md-12 client-img">
+                        <img src="img/testimonials/t1.jpg" alt="testimonial 1">
+                    </div>
+                    <div class="col-lg-8 col-md-12 about-client mt-3 mt-lg-0">
+                        <h5 class="text-uppercase font-weight-bold">martin</h5>
+                        <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, minima laboriosam tenetur id quia aliquid.</p>
+                    </div>
+                </div>
+                <div class="row client d-lg-flex align-items-lg-center">
+                    <div class="col-lg-4 col-md-12 client-img">
+                        <img src="img/testimonials/t2.jpg" alt="testimonial 2">
+                    </div>
+                    <div class="col-lg-8 col-md-12 about-client mt-3 mt-lg-0">
+                        <h5 class="text-uppercase font-weight-bold">john doe</h5>
+                        <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, minima laboriosam tenetur id quia aliquid.</p>
+                    </div>
+                </div>
+                <div class="row client d-lg-flex align-items-lg-center">
+                    <div class="col-lg-4 col-md-12 client-img">
+                        <img src="img/testimonials/t3.jpg" alt="testimonial 3">
+                    </div>
+                    <div class="col-lg-8 col-md-12 about-client mt-3 mt-lg-0">
+                        <h5 class="text-uppercase font-weight-bold">addison</h5>
+                        <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, minima laboriosam tenetur id quia aliquid.</p>
+                    </div>
+                </div>
+                <div class="row client d-lg-flex align-items-lg-center">
+                    <div class="col-lg-4 col-md-12 client-img">
+                        <img src="img/testimonials/t4.jpg" alt="testimonial 4">
+                    </div>
+                    <div class="col-lg-8 col-md-12 about-client mt-3 mt-lg-0">
+                        <h5 class="text-uppercase font-weight-bold">anna</h5>
+                        <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, minima laboriosam tenetur id quia aliquid.</p>
+                    </div>
+                </div>
+                <div class="row client d-lg-flex align-items-lg-center">
+                    <div class="col-lg-4 col-md-12 client-img">
+                        <img src="img/testimonials/t5.jpg" alt="testimonial 5">
+                    </div>
+                    <div class="col-lg-8 col-md-12 about-client mt-3 mt-lg-0">
+                        <h5 class="text-uppercase font-weight-bold">adken</h5>
+                        <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, minima laboriosam tenetur id quia aliquid.</p>
+                    </div>
+                </div>
+                <div class="row client d-lg-flex align-items-lg-center">
+                    <div class="col-lg-4 col-md-12 client-img">
+                        <img src="img/testimonials/t6.jpg" alt="testimonial 6">
+                    </div>
+                    <div class="col-lg-8 col-md-12 about-client mt-3 mt-lg-0">
+                        <h5 class="text-uppercase font-weight-bold">afton</h5>
+                        <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, minima laboriosam tenetur id quia aliquid.</p>
+                    </div>
+                </div>
+                <div class="row client d-lg-flex align-items-lg-center">
+                    <div class="col-lg-4 col-md-12 client-img">
+                        <img src="img/testimonials/t7.jpg" alt="testimonial 7">
+                    </div>
+                    <div class="col-lg-8 col-md-12 about-client mt-3 mt-lg-0">
+                        <h5 class="text-uppercase font-weight-bold">alan</h5>
+                        <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, minima laboriosam tenetur id quia aliquid.</p>
+                    </div>
+                </div>
+                <div class="row client d-lg-flex align-items-lg-center">
+                    <div class="col-lg-4 col-md-12 client-img">
+                        <img src="img/testimonials/t8.jpg" alt="testimonial 8">
+                    </div>
+                    <div class="col-lg-8 col-md-12 about-client mt-3 mt-lg-0">
+                        <h5 class="text-uppercase font-weight-bold">banton</h5>
+                        <p class="para">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Natus, minima laboriosam tenetur id quia aliquid.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of client section -->
+
+    <!-- stat contact form -->
+    <section id="contact" class="py-5">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-12">
+                    <div class="contact-title">
+                        <h3 class="text-uppercase font-weight-bold">con<span class="con-letter">t</span>act with us</h3>
+                        <p class="my-4">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                    </div>
+                </div>
+            </div>
+            <form class="row d-flex flex-row justify-content-center mt-5">
+                <div>
+                    <div class="form-group text-left">
+                        <label for="name" required>Name:</label>
+                        <input id="name" type="text" class="form-control" placeholder="name" name="name">
+                    </div>
+                    <div class="form-group text-left">
+                        <label for="email">Email:</label>
+                        <input id="email" type="email" class="form-control" placeholder="Email" name="email">
+                    </div>
+                    <div class="form-group text-left">
+                        <label for="pass">Password:</label>
+                        <input id="pass" type="password" class="form-control" placeholder="password" name="email">
+                    </div>
+                    <div class="form-group text-left">
+                        <label for="message">Message:</label>
+                        <textarea name="message" id="message" rows="4" cols="30" class="form-control" placeholder="Typing your message..."></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-outline-dark">Submit</button>
+                </div>
+            </form>
+
+        </div>
+    </section>
+    <!-- end of contact form -->
+
+    <!-- footer section start -->
+    <footer id="footer" class="py-5 text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="text-uppercase font-weight-bold">work with us</h5>
+                    <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, voluptas mollitia vero ad praesentium expedita.</p>
+                    <button class="btn text-uppercase btn-sm mt-2">learn more</button>
+                </div>
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <h5 class="text-uppercase font-weight-bold h2 font-italic">connect</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, voluptas mollitia vero ad praesentium expedita.</p>
+                    <div class="social-link">
+                        <a href="#"><i class="fa fa-facebook pt-1"></i></a>
+                        <a href="#"><i class="fa fa-twitter pt-1"></i></a>
+                        <a href="#"><i class="fa fa-instagram pt-1"></i></a>
+                        <a href="#"><i class="fa fa-linkedin pt-1"></i></a>
+                        <a href="#"><i class="fa fa-google pt-1"></i></a>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="subscribe">
+                        <h5 class="text-uppercase font-weight-bold">subscribe</h5>
+                        <p class="my-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, voluptas mollitia vero ad praesentium expedita.
+                        </p>
+                        <button class="btn text-uppercase btn-sm mt-2 mb-5 mb-md-0">become a vip</button>
+                    </div>
+                </div>
+            </div>
+            <div class="row mt-2">
+                <div class="col">
+                    <div class="copyright">
+                        <p class="text-capitalize text-muted mb-0">copyright &copy; all rights reserved 2020, by <a href="#exampleModal" target="_blank" data-toggle="modal">mahabur rahman</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- footer section end -->
+
+
+    <!-- start modal for footer -->
+    <div class="modal fade" id="exampleModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content bg-dark text-light">
+                <div class="modal-header">
+                    <h3 class="modal-title text-capitalize" id="exampleModalLabel">contact with author</h3>
+                    <button type="button" class="close" data-dismiss="modal">
+                    <span class="text-white">&times;</span>
+                </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="recipientone" class="text-capitalize">name:</label>
+                            <input type="text" class="form-control" id="recipientone" name="user-name" placeholder="name">
+                        </div>
+                        <div class="form-group">
+                            <label for="recipienttwo" class="text-capitalize">email:</label>
+                            <input type="email" class="form-control" id="recipienttwo" name="user-email" placeholder="email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message-text" class="col-form-label">Message:</label>
+                            <textarea class="form-control" id="message-text" name="message" placeholder="message.."></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Send message</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end of modal for footer -->
+
+
+    <!-- JS FILES -->
+    <script src="js/jquery.slim.js "></script>
+    <script src="js/popper.min.js "></script>
+    <script src="js/bootstrap.min.js "></script>
+    <!-- smooth scroll plugin cdn link -->
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll/dist/smooth-scroll.polyfills.min.js"></script>
+    <!--ios animation plugin -->
+    <script src="js/aos.js"></script>
+    <!-- mixItUp | filter plugin -->
+    <script src="js/mixitup.min.js"></script>
+    <!-- fancy box | popUp gallery plugin -->
+    <script src="js/jquery.fancybox.min.js"></script>
+    <!-- owl carousel -->
+    <script src="js/owl.carousel.min.js"></script>
+    <!-- custom js -->
+    <script src="js/main.js"></script>
+</body>
+
+</html>
